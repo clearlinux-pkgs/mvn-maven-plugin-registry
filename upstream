@@ -1,21 +1,4 @@
 4242ec8629b4797387751379f57e72cb718aac7a/maven-plugin-registry-2.0.6.jar
-d5da46ecb3da41696471510223af256143bc0936/maven-plugin-registry-2.0.10.jar
-65f0e009b7e9d2a74c5febbe457799b3d696f43d/maven-plugin-registry-2.0.10.pom
-c4703e5496fa93dcea339f9cc665290f9179c108/maven-plugin-registry-2.0.11.jar
-1934959e96e767b4af4b20ed8fd06b77e88dec72/maven-plugin-registry-2.0.11.pom
-2e13beea3b3511c6075c60384d9e7fad18efbcdf/maven-plugin-registry-2.0.6.pom
-5a46c15c0641629871f113f926b5ce714f5069c1/maven-plugin-registry-2.0.7.jar
-17a98fedc6ebfcf4b37dfb850837ae4b259a6ed7/maven-plugin-registry-2.0.7.pom
-37385b508a04d77575c6b5542b88bd96f5257541/maven-plugin-registry-2.0.8.jar
-8f64ad448251c2c6007e609088bb7aa45ff337c5/maven-plugin-registry-2.0.8.pom
-a7172a87a7cb901cf6df4df9fd89a3c2d3f8a770/maven-plugin-registry-2.0.9.jar
-403ed44092f56e1ebab891f37c69d61936c5c4da/maven-plugin-registry-2.0.9.pom
-a891b12d4bdbf6b80f2d056418daf1951e0d04a8/maven-plugin-registry-2.2.0.jar
-a891b12d4bdbf6b80f2d056418daf1951e0d04a8/maven-plugin-registry-2.2.0.jar
-a28f479f5a2334f4018fd6812a6da2652a11d858/maven-plugin-registry-2.2.0.pom
-a28f479f5a2334f4018fd6812a6da2652a11d858/maven-plugin-registry-2.2.0.pom
-72a24b7775649af78f3986b5aa7eb354b9674cfd/maven-plugin-registry-2.2.1.jar
-c3575ac9ad32638af33d88829453bdc902ea8711/maven-plugin-registry-2.2.1.pom
 2e13beea3b3511c6075c60384d9e7fad18efbcdf/maven-plugin-registry-2.0.6.pom
 5a46c15c0641629871f113f926b5ce714f5069c1/maven-plugin-registry-2.0.7.jar
 17a98fedc6ebfcf4b37dfb850837ae4b259a6ed7/maven-plugin-registry-2.0.7.pom
@@ -33,3 +16,5 @@ d5da46ecb3da41696471510223af256143bc0936/maven-plugin-registry-2.0.10.jar
 c4703e5496fa93dcea339f9cc665290f9179c108/maven-plugin-registry-2.0.11.jar
 a28f479f5a2334f4018fd6812a6da2652a11d858/maven-plugin-registry-2.2.0.pom
 a891b12d4bdbf6b80f2d056418daf1951e0d04a8/maven-plugin-registry-2.2.0.jar
+90c984903f33bd115c68b6fdca646511d5a4df43/maven-plugin-registry-2.0.1.jar
+793427decbd066412d2ca246a0cfb3050f592b32/maven-plugin-registry-2.0.1.pom
