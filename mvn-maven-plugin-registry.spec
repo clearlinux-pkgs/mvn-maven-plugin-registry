@@ -4,7 +4,7 @@
 #
 Name     : mvn-maven-plugin-registry
 Version  : 2.0.6
-Release  : 4
+Release  : 5
 URL      : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar
 Source0  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar
 Source1  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.0.1/maven-plugin-registry-2.0.1.jar
@@ -20,9 +20,9 @@ Source10  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registr
 Source11  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.0.8/maven-plugin-registry-2.0.8.pom
 Source12  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.jar
 Source13  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.pom
-Source14  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.jar
-Source15  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.jar
-Source16  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.pom
+Source14  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.1.0/maven-plugin-registry-2.1.0.jar
+Source15  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.1.0/maven-plugin-registry-2.1.0.pom
+Source16  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.jar
 Source17  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.pom
 Source18  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar
 Source19  : https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.pom
@@ -103,14 +103,14 @@ cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.0.9
 cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.0
-cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.1.0
+cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.1.0/maven-plugin-registry-2.1.0.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.1.0
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.1.0/maven-plugin-registry-2.1.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.0
-cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.jar
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.0
-cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.pom
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.0
 cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.pom
@@ -141,6 +141,8 @@ cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/maven/maven
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.0.8/maven-plugin-registry-2.0.8.pom
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.jar
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.0.9/maven-plugin-registry-2.0.9.pom
+/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.1.0/maven-plugin-registry-2.1.0.jar
+/usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.1.0/maven-plugin-registry-2.1.0.pom
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.jar
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.pom
 /usr/share/java/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar
